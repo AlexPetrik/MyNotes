@@ -12,6 +12,8 @@ class MainWindow(QtWidgets.QMainWindow):
     def __init__(self):
         super().__init__()
 
+        self.setMinimumSize(800, 600)
+
         self.setWindowTitle("My Notes")
 
         # data = [
